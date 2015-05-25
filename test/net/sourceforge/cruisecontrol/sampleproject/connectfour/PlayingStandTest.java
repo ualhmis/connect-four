@@ -87,7 +87,7 @@ public class PlayingStandTest extends TestCase {
 
         stand.dropRed(1);
         stand.dropBlack(6);
-        assertTrue(stand.areFourConnected());   // roto tambien 
+        assertFalse(stand.areFourConnected());
 
         stand.dropRed(2);
         stand.dropBlack(6);
