@@ -76,7 +76,7 @@
         </junit>
     </target>
 
-    <target name="jar" depends="compile">
+    <target name="war" depends="compile">
         <jar jarfile="target/connectfour.jar" basedir="target/classes"/>
     </target>
 	
